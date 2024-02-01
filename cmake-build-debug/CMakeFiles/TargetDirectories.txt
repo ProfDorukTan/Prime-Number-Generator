@@ -1,0 +1,3 @@
+/Users/doruktanatila/CLionProjects/Prime Numbers/cmake-build-debug/CMakeFiles/Prime_Numbers.dir
+/Users/doruktanatila/CLionProjects/Prime Numbers/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/doruktanatila/CLionProjects/Prime Numbers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
