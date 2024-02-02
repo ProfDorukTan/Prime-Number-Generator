@@ -1,22 +1,31 @@
-# Prime-Number-Generator
+# Prime Number Generator
 
-The program will generate prime numbers starting from 2.
+This program, created by Doruk Tan Atila on 12/02/2022, is designed to generate prime numbers starting from 2. It offers various functionalities, including reading external data from "Prime Numbers.txt," saving prime numbers to a text file, and calculating prime numbers based on user input.
 
-After program starts, it takes the following inputs from the user:
+## Features
 
-Total number of prime numbers to generate: 
-INPUT NUMBER OF PRIME NUMBERS GENERATED
+- **Prime Number Generation:** The program allows the user to specify the total number of prime numbers to generate.
 
-Read external data(1-yes)(0-no): (will always read from Prime Numbers.txt)
-Code will not execute if the number of primes extracted is greater than the number requested: 
-INPUT 0 FOR DEFAULT. IF A DATABASE OF PRIME NUMBERS EXIST IN TXT FILE INPUT 1 AND THE PROGRAM WILL READ THOSE VALUES AND START CALCULATING NEW VALUES AFTER THE LAST VALUE.
+- **External Data:** Users can choose to read existing prime numbers from "Prime Numbers.txt." The program will not execute if the number of primes extracted is greater than the number requested.
 
-Do you want to save all prime numbers in a text file (!The file will be overwritten if exists!) (1-yes:)(0-no):
-INPUT 0 FOR DEFAULT. INPUT 1 IF YOU WANT TO SAVE CALCULATED NUMBERS IN A TEXT FILE
+- **Save to Text File:** Users have the option to save all prime numbers in a text file. The file will be overwritten if it already exists.
 
+- **Execution Time:** The program provides information on the execution time, allowing users to assess performance.
 
-Note:
-1) By commenting and uncommenting some lines intermediate values could be printed.
+## How to Use
 
-The algorithm:
-Algorithm divides the new number "n" to the previously found prime numbers 2, 3, 5, 7, ..., "max". max number is less than the sqrt(n). It is single threaded.
+1. **Total Number of Primes:**
+   - Enter the desired number of prime numbers to generate.
+
+2. **Read External Data:**
+   - Enter `1` to read existing prime numbers from "Prime Numbers.txt" or `0` to generate new ones.
+
+3. **Save to Text File:**
+   - Enter `1` to save calculated prime numbers in a text file or `0` for the default behavior.
+
+4. **Note:**
+   - By commenting and uncommenting specific lines in the source code,
+
+## Algorithm
+
+The algorithm divides the new number "n" by the previously found prime numbers (2, 3, 5, 7, ..., `max`). The `max` number is less than the square root of "n." It is a single-threaded algorithm.
